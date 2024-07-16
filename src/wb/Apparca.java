@@ -206,7 +206,7 @@ public class Apparca {
 			comboEtiqueta.setFocus();
 			missatge = "La categoria no pot estar buida";
 			return false;
-		}else if(maxIndex>5) {
+		}else if(maxIndex>4) {
 			comboEtiqueta.setFocus();
 			missatge = "Tipus d'etiqueta incorrecte";
 			return false;
